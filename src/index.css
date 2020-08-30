@@ -1,20 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
 * {
   margin: 0px;
   padding: 0px;
 }
 
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 13px;
+}
+
+:root {
+  --very-dark-blue: hsl(217, 19%, 35%);
+  --desaturated-dark-blue: hsl(214, 17%, 51%);
+  --grayish-blue: hsl(212, 23%, 69%);
+  --light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+.main {
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
-  border: solid 1px red;
+  width: 85%;
+  height: 80%;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px -5px hsl(214, 17%, 51%, 0.5);
 }
 
 .Image__container {
-  border: solid 2px blue;
+  width: 100%;
+  height: 40%;
+}
+
+.Image__container > img {
+  width: 100%;
+  height: 100%;
 }
 
 .Info__container {
-  border: solid 2px green;
+  height: 35%;
+  padding: 2.2rem 2.2rem 0.5rem 2.2rem;
+}
+
+.Info__title {
+  font-size: 1rem;
+  color: var(--very-dark-blue);
+}
+
+.Info__paragraph {
+  margin-top: 1rem;
+  color: var(--very-dark-blue);
+  letter-spacing: 0.4px;
+  line-height: 1.4rem;
+  font-size: 0.8rem;
 }
 
 .Share__container {
-  border: solid 2px cyan;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 1rem;
+}
+
+.Share__contact {
+  display: flex;
+  width: 70%;
+}
+
+.Contact__avatar {
+  width: 20%;
+  height: 60%;
+  margin-right: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.Contact__info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Contact__name {
+  color: var(--very-dark-blue);
+}
+
+.Contact__date {
+  color: var(--grayish-blue);
+}
+
+.Share__button {
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  border-radius: 50%;
+}
+
+.Share__button:hover {
+  cursor: pointer;
+  border: solid 2px var(--desaturated-dark-blue);
+}
+
+.attribution {
+  margin: -20px 0 0 0;
 }
