@@ -1,0 +1,20 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.card {
+  border: solid 1px red;
+}
+
+.Image__container {
+  border: solid 2px blue;
+}
+
+.Info__container {
+  border: solid 2px green;
+}
+
+.Share__container {
+  border: solid 2px cyan;
+}
