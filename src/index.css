@@ -31,7 +31,7 @@ body {
   height: 80%;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 20px 40px -5px hsl(214, 17%, 51%, 0.5);
+  box-shadow: 0 20px 40px -5px var(--very-dark-blue);
 }
 
 .Image__container {
