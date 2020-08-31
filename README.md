@@ -2,6 +2,7 @@
 
 ![desktop-preview.jpg](https://static.platzi.com/media/user_upload/desktop-preview-948e0f8f-7bf6-42ec-a925-e03f1dde08fd.jpg)
 
+Mira el resultado -> [Demo](https://ankynator.github.io/vista-previa-articulo/)
 
 **Para realizar este reto, se utilizo HTML CSS y Javascript**
 
@@ -22,9 +23,9 @@
 
 - Al momento de esctructurar los componentes no pense en todos los distintos tamaños de pantalla, y como los elementos tienen que ir cambiando.
 
+**Realizado por:** [@ankynator](https://twitter.com/ankynator)
 
 ## Créditos por el diseño y reto.
-
 
 - Este reto pertenece a la lista de retos de [Frontend Mentor](https://www.frontendmentor.io)
 
