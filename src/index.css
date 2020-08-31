@@ -165,3 +165,30 @@ body {
   margin: -20px 0 0 0;
   text-align: center;
 }
+
+@media screen and (min-width: 768px){
+  
+  .card {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 70% 30%;
+    grid-template-areas: 
+      "Image Info"
+      "Image Share";
+  }
+
+  .Image__container {
+    border: solid 1px green;
+    grid-area: Image;
+  }
+
+  .Info__container {
+    border: solid 1px blue;
+    grid-area: Info;
+  }
+
+  .Share__container {
+    border: solid 1px violet;
+    grid-area: Share;
+  }
+}
