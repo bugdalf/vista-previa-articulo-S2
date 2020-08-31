@@ -9,6 +9,7 @@ body {
   font-family: 'Manrope', sans-serif;
   font-size: 11px;
   position: relative;
+  overflow-x: hidden;
 }
 
 :root {
@@ -200,7 +201,7 @@ body {
   }
 
   .Info__paragraph {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
 
   .Share__container {
@@ -229,5 +230,19 @@ body {
     position: absolute;
     bottom: -10px;
 
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body {
+    font-size: 14px;
+  }
+
+  .Info__title {
+    font-size: 1.5rem;
+  }
+
+  .Info__paragraph {
+    font-size: 1rem;
   }
 }
