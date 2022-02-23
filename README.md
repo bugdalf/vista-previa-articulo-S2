@@ -2,7 +2,7 @@
 
 ![desktop-preview.jpg](https://static.platzi.com/media/user_upload/desktop-preview-948e0f8f-7bf6-42ec-a925-e03f1dde08fd.jpg)
 
-Mira el resultado -> [Demo](https://ankynator.github.io/vista-previa-articulo/)
+Mira el resultado -> [Demo](https://bugdalf.github.io/vista-previa-articulo-S2/)
 
 **Para realizar este reto, se utilizo HTML CSS y Javascript**
 
